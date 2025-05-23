@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
-    public function loginPost(Request $request)
+   /* public function loginPost(Request $request)
     {
 
         $request->validate([
@@ -83,7 +83,7 @@ class UserController extends Controller
             'status' => 0,
             'message' => 'User not authenticated'
         ], 401);
-    }
+    }*/
 
     public function viewuser(): JsonResponse
     {
